@@ -6,6 +6,13 @@
 //  Copyright (c) 2014 Roman Rybachenko. All rights reserved.
 //
 
+
+
+// Push an existing repository from the command line
+// git remote add origin git@github.com:RomaGeekHubAcc/WorkWithVKontakteSDK.git
+// git push -u origin master
+
+
 #import "AppDelegate.h"
 
 @implementation AppDelegate

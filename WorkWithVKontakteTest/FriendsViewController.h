@@ -12,6 +12,9 @@
 
 @interface FriendsViewController : UIViewController <UITableViewDataSource, UITableViewDelegate, UITextViewDelegate, ButtonsOnFriendsCellDelegate>
 
+
+
+
 @property (nonatomic, strong) NSArray *friends;
 
 @end
