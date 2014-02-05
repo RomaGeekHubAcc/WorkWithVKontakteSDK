@@ -81,7 +81,7 @@
 
 -(void) sendMessage {
     NSDictionary *parameters = @{@"user_id"  : [_friendInfo objectForKey:@"id"],
-                                 @" message" : _messageTextView.text,
+                                 @"message" : _messageTextView.text,
                                  @"v"        : @(5.7)};
     
     VKRequest *sendMessageRequest = [VKRequest requestWithMethod:@"messages.send" andParameters:parameters andHttpMethod:@"POST"];
